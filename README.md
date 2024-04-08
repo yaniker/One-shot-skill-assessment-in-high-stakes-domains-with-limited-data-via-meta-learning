@@ -61,11 +61,11 @@ Contained files:
 
  To run the code please use the following on the root directory:
 
-	"python main.py 2 1 8 STB"
+	python main.py 2 1 8 STB
  
-"python main.py 2 1 8 PC"
-"python main.py 2 1 8 JST"
-"python main.py 2 1 8 JKT"
+"python main.py 2 1 8 PC",
+"python main.py 2 1 8 JST",
+"python main.py 2 1 8 JKT",
 "python main.py 2 1 8 JNP"
 	
 Here the user inputs are as follows: number of training classes per batch, 
@@ -77,11 +77,11 @@ Here the user inputs are as follows: number of training classes per batch,
 
 To test the trained meta learners on laparoscopic cholecystoctomy dataset please use the following on the root directory:
 	
-	"python adapt_cholec.py 2 1 8 STB"
+	python adapt_cholec.py 2 1 8 STB
  
-"python adapt_cholec.py 2 1 8 PC"
-"python adapt_cholec.py 2 1 8 JST"
-"python adapt_cholec.py 2 1 8 JKT"
+"python adapt_cholec.py 2 1 8 PC",
+"python adapt_cholec.py 2 1 8 JST",
+"python adapt_cholec.py 2 1 8 JKT",
 "python adapt_cholec.py 2 1 8 JNP"
 
 Here the user inputs are as follows: number of training classes per batch, 
