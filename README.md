@@ -1,4 +1,4 @@
- 	Licence: CC BY-SA
+ 	Licence: CC BY-SA-4.0
 	Author: Dr. Erim Yanik
 	Affiliation: FAMU-FSU College of Engineering
 	Date: 04.05.2024
