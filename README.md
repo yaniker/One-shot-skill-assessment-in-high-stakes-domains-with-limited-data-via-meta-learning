@@ -24,7 +24,7 @@ This code is released as a part of the research article:
 
 #############################################
 
-* Nomenclature:
+Nomenclature:
      PC     : pattern cutting
      STB    : laparoscopic suturing
      ST/JST : robotic suturing
@@ -35,6 +35,7 @@ This code is released as a part of the research article:
 #############################################
 
 Contained files:
+
 * main.py: main script that contains the entire workflow of meta learning training and adaptation.
 * test_on_cholec.py: used to test the trained meta learners on laparoscopic cholecystectomy.
 * config.py" the configurations, i.e., parameters and hyperparameters for meta learning development.
@@ -52,36 +53,36 @@ Contained files:
 
 #############################################
 
- *To run the code please use the following on the root directory:
+ To run the code please use the following on the root directory:
 
 	"python main.py 2 1 8 STB"
-	"python main.py 2 1 8 PC"
-	"python main.py 2 1 8 JST"
-	"python main.py 2 1 8 JKT"
-	"python main.py 2 1 8 JNP"
-		
-	Here the user inputs are as follows: number of training classes per batch, 
-				             number of training samples per batch,
-				             self-supervised feature size,
-					     validation dataset (the rest go to training)
+ 
+"python main.py 2 1 8 PC"
+"python main.py 2 1 8 JST"
+"python main.py 2 1 8 JKT"
+"python main.py 2 1 8 JNP"
+	
+Here the user inputs are as follows: number of training classes per batch, 
+				     number of training samples per batch,
+				     self-supervised feature size,
+				     validation dataset (the rest go to training)
 
 #############################################
 
-* To test the trained meta learners on laparoscopic cholecystoctomy dataset please use the following on the root directory:
+To test the trained meta learners on laparoscopic cholecystoctomy dataset please use the following on the root directory:
 	
 	"python adapt_cholec.py 2 1 8 STB"
-	"python adapt_cholec.py 2 1 8 PC"
-	"python adapt_cholec.py 2 1 8 JST"
-	"python adapt_cholec.py 2 1 8 JKT"
-	"python adapt_cholec.py 2 1 8 JNP"
-	
-	Here the user inputs are as follows: number of training classes per batch, 
-				             number of training samples per batch,
-				             self-supervised feature size,
-					     validation dataset (used as a validation during training with the other datasets.)
+ 
+"python adapt_cholec.py 2 1 8 PC"
+"python adapt_cholec.py 2 1 8 JST"
+"python adapt_cholec.py 2 1 8 JKT"
+"python adapt_cholec.py 2 1 8 JNP"
 
-	Currently there is one model released for each validation dataset, so the adaptation to laparoscopic cholecystectomy
-	happens through these released models.
+Here the user inputs are as follows: number of training classes per batch, 
+				     number of training samples per batch,
+				     self-supervised feature size,
+				     validation dataset (used as a validation during training with the other datasets.)
 
-* Currently the developer option is turned on (dev = True); hence the results won't be saved. To save your results
- please set dev to False.
+Currently there is one model released for each validation dataset, so the adaptation to laparoscopic cholecystectomy happens through these released models.
+
+Currently the developer option is turned on (dev = True); hence the results won't be saved. To save your results please set dev to False.
