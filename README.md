@@ -55,8 +55,7 @@ Contained files:
 * utils_inputs.py: utility functions for importing data.
 * utils_logging.py: utility functions for logging the process and the results.
 * utils_model.py: utility functions needed for meta learner to run properly.
-* The provided inputs in the "input folder" are for the self-supervised feature sets of 8 in size. The remaining was not provided
-  at this time (2,4,16,32,64,128).
+* The provided inputs in the "input folder" are for the self-supervised feature sets of 8 in size (Temporal_length, 8). The remaining sizes were not provided at this time (2,4,16,32,64,128).
 * The provided results in the "output" folder are after one run with a random seed to validate the code.
 
 #############################################
