@@ -1,3 +1,9 @@
+This work is licenced under CC BY-SA.
+Author: Dr. Erim Yanik
+Affiliation: FAMU-FSU College of Engineering
+Date: 04.05.2024
+For inquiries: erimyanik@gmail.com
+
 #############################################
 
 This code is released as a part of the research article:
