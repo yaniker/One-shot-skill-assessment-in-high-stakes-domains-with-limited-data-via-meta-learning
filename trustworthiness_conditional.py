@@ -1,7 +1,6 @@
 """
 Author: Dr. Erim Yanik
 Date: 04/05/2024
-Licence: MIT Licence
 """
 
 import os
