@@ -1,0 +1,7 @@
+inp_size: 8
+loss_type: CS
+lr: 0.01
+lr_inner: 0.1
+lr_output: 0.1
+num_inner_steps: 1
+weight_decay: 0
