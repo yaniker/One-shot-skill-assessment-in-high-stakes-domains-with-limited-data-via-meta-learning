@@ -1,7 +1,6 @@
 """
 Author: Dr. Erim Yanik
 Date: 04/05/2024
-Licence: MIT Licence
 
 There is no model training in this script. It takes the best performing models from the training and validation by the other datasets of this study and uses these models to adapt to Laparoscopic Cholecystectomy for given gradient update and adaptation shots, i.e., k-shots.
 """
