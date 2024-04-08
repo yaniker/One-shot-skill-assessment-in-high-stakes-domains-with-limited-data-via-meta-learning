@@ -1,9 +1,11 @@
 """
 Author: Dr. Erim Yanik
 Date: 04/05/2024
-Licence: MIT Licence
 
 Parts of this script was taken and/or adjusted from "https://pytorch-lightning.readthedocs.io/en/1.5.10/notebooks/course_UvA-DL/12-meta-learning.html"
+    Author: Phillip Lippe
+    License: CC BY-SA
+    Generated: 2021-10-10T18:35:50.818431
 """
 
 import os, random
