@@ -7,7 +7,9 @@
 #############################################
 
 This code is released as a part of the research article:
-	
+
+Please use the following citation:
+
  	"One-shot skill assessment in high-stakes domains with limited data via meta learning
   
 	"Erim Yanik1*, Steven Schwaitzberg2, Gene Yang2, Xavier Intes3, Jack Norfleet4, Matthew Hackett4, and Suvranu De1
