@@ -1,9 +1,11 @@
 #############################################
 
-This code is released as a part of the research article titled:
+This code is released as a part of the research article:
 	
- 	"One-shot skill assessment in high-stakes domains with limited data via meta learning: authored by:
+ 	"One-shot skill assessment in high-stakes domains with limited data via meta learning
+  
 	"Erim Yanik1*, Steven Schwaitzberg2, Gene Yang2, Xavier Intes3, Jack Norfleet4, Matthew Hackett4, and Suvranu De1
+ 
 	1 College of Engineering, Florida A&M University and The Florida State University, USA
 	2 School of Medicine and Biomedical Sciences, University at Buffalo, USA
 	3 Biomedical Engineering Department, Rensselaer Polytechnic Institute, USA
