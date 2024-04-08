@@ -92,3 +92,11 @@ Here the user inputs are as follows: number of training classes per batch,
 Currently there is one model released for each validation dataset, so the adaptation to laparoscopic cholecystectomy happens through these released models.
 
 Currently the developer option is turned on (dev = True); hence the results won't be saved. To save your results please set dev to False.
+
+#############################################
+
+Acknowledgement:
+
+	The US Army Futures Command, Combat Capabilities Development Command Soldier Center STTC cooperative research agreement #W912CG-21-2-0001
+
+
