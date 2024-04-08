@@ -1,21 +1,24 @@
 #############################################
-This code is released as a part of the research article titled "One-shot skill assessment in high-stakes domains with limited data via meta learning: authored by:
 
-"Erim Yanik1*, Steven Schwaitzberg2, Gene Yang2, Xavier Intes3, Jack Norfleet4, Matthew Hackett4, and Suvranu De1
-
+This code is released as a part of the research article titled:
+	
+ 	"One-shot skill assessment in high-stakes domains with limited data via meta learning: authored by:
+	"Erim Yanik1*, Steven Schwaitzberg2, Gene Yang2, Xavier Intes3, Jack Norfleet4, Matthew Hackett4, and Suvranu De1
 	1 College of Engineering, Florida A&M University and The Florida State University, USA
 	2 School of Medicine and Biomedical Sciences, University at Buffalo, USA
 	3 Biomedical Engineering Department, Rensselaer Polytechnic Institute, USA
 	4 U.S. Army Combat Capabilities Development Command Soldier Center STTC, USA
 
-BibTeX: @article{yanik2022one,
-  title={One-shot domain adaptation in video-based assessment of surgical skills},
-  author={Yanik, Erim and Schwaitzberg, Steven and Yang, Gene and Intes, Xavier and De, Suvranu},
-  journal={arXiv preprint arXiv:2301.00812},
-  year={2022}
-}
+#############################################
 
-APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., & De, S. (2022). One-shot domain adaptation in video-based assessment of surgical skills. arXiv preprint arXiv:2301.00812. (Current arxiv version udner a different title.)
+	BibTeX: @article{yanik2022one,
+	  title={One-shot domain adaptation in video-based assessment of surgical skills},
+	  author={Yanik, Erim and Schwaitzberg, Steven and Yang, Gene and Intes, Xavier and De, Suvranu},
+	  journal={arXiv preprint arXiv:2301.00812},
+	  year={2022}
+	}
+
+	APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., & De, S. (2022). One-shot domain adaptation in video-based assessment of surgical skills. arXiv preprint arXiv:2301.00812. (Current arxiv version udner a different title.)
 
 #############################################
 
