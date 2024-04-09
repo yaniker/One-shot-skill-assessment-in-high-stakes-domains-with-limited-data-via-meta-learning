@@ -118,7 +118,7 @@ class import_dataset_Cholec:
         ybb = df['GRS'].values
         
         #Pick the top OSATS scores as a separate class than the rest.
-        yb = np.array([1 if i in [24, 55] else 0 for i in ybb])
+        yb = np.array([1 if i in [24, 25] else 0 for i in ybb])
         
         #Import the feature sets
         X = import_feats_SS(self.INPUT_DIR, self.feature_no, names, 'Cholec')
