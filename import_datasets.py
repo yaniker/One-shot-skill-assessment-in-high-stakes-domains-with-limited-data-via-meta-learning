@@ -13,7 +13,7 @@ from utils_inputs import *
     Classes in this file are used for importing, adjusting, and optionally shuffling the specified dataset features and labels.
 
     Inputs:
-        barn_dir (str): Base directory containing the dataset and related files.
+        ROOT_DIR (str): Base directory containing the dataset and related files.
         feature_no (int): Identifier for the specific feature set to use.
         val_dataset (str): Specifies the validation dataset.
         n (int): Desired number of samples from each class for balancing.
