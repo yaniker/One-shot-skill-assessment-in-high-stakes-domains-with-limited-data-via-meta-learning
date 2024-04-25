@@ -21,11 +21,13 @@ This code is released as a part of the research article:
 
 Please use the following citation:
 
-	BibTeX: @article{yanik2022one,
-	  title={One-shot domain adaptation in video-based assessment of surgical skills},
-	  author={Yanik, Erim and Schwaitzberg, Steven and Yang, Gene and Intes, Xavier and De, Suvranu},
-	  journal={arXiv preprint arXiv:2301.00812},
-	  year={2022}
+	BibTeX:@article{yanik2024one,
+	  title={One-shot skill assessment in high-stakes domains with limited data via meta learning},
+	  author={Yanik, Erim and Schwaitzberg, Steven and Yang, Gene and Intes, Xavier and Norfleet, Jack and Hackett, Matthew and De, Suvranu},
+	  journal={Computers in Biology and Medicine},
+	  pages={108470},
+	  year={2024},
+	  publisher={Elsevier}
 	}
 
 	APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., Norfleet, J., Hackett, M., & De, S. (2024). One-shot skill assessment in high-stakes domains with limited data via meta learning. Computers in Biology and Medicine, 108470.
