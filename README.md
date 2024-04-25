@@ -8,8 +8,6 @@
 
 This code is released as a part of the research article:
 
-Please use the following citation:
-
  	"One-shot skill assessment in high-stakes domains with limited data via meta learning
   
 	"Erim Yanik1*, Steven Schwaitzberg2, Gene Yang2, Xavier Intes3, Jack Norfleet4, Matthew Hackett4, and Suvranu De1
@@ -21,6 +19,8 @@ Please use the following citation:
 
 #############################################
 
+Please use the following citation:
+
 	BibTeX: @article{yanik2022one,
 	  title={One-shot domain adaptation in video-based assessment of surgical skills},
 	  author={Yanik, Erim and Schwaitzberg, Steven and Yang, Gene and Intes, Xavier and De, Suvranu},
@@ -28,7 +28,7 @@ Please use the following citation:
 	  year={2022}
 	}
 
-	APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., & De, S. (2022). One-shot domain adaptation in video-based assessment of surgical skills. arXiv preprint arXiv:2301.00812. (Current arxiv version udner a different title.)
+	APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., Norfleet, J., Hackett, M., & De, S. (2024). One-shot skill assessment in high-stakes domains with limited data via meta learning. Computers in Biology and Medicine, 108470.
 
 #############################################
 
