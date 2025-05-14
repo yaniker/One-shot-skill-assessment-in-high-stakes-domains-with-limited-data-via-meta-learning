@@ -43,7 +43,7 @@ class ProtoMAML(pl.LightningModule):
         
         super().__init__()
         self.save_hyperparameters()
-        self.model = VBANet(inp_size)
+        self.model = model(inp_size)
         
     def calculate_prototypes(self, features, targets):
         classes, _ = torch.unique(targets).sort()  # Determine which classes we have.
