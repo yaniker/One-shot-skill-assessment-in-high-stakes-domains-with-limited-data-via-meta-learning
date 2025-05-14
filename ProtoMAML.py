@@ -23,7 +23,7 @@ import torch.optim as optim
 
 from utils import to_tensor, split_batch, zero_padder, X_normalize
 # from utils_model import *
-from model import *
+from model import model
 
 device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 
