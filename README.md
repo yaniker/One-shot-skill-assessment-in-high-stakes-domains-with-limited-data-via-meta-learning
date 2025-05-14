@@ -126,3 +126,30 @@ Parts of the code was taken from:
    	Cited and acknowledged in the paper: YES.
 
 
+## License
+
+This repository contains two distinct codebases under separate licenses:
+
+### 🔹 Model Code (VBA_net and Related)
+
+The code in the `/model/` directory (including `vba_net.py` and related modules) was developed by **Erim Yanik** and is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+
+This means:
+- You **must attribute** Erim Yanik as the original author.
+- Any modifications or derivative works **must also be released** under GPLv3.
+- **Commercial or closed-source use is not permitted** under this license.
+
+Full license: [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+### 🔹 Third-Party Code (ProtoMAML)
+
+The code in the `/protomaml/` directory is **adapted from external sources** and is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license.
+
+This means:
+- You must **attribute the original creators** of ProtoMAML.
+- Any use or derivative of that code must be licensed under **CC BY-SA 4.0**.
+
+We do **not claim authorship** of the ProtoMAML code. It is included for reference and compatibility only.
+
+Full CC BY-SA license: [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+
