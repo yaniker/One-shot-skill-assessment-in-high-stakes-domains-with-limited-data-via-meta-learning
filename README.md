@@ -1,4 +1,6 @@
 
+**!!! If you have any questions or need features please add them to `issues`. I would be happy to help. !!!**
+
 ## License
 
 This repository contains two distinct codebases under separate licenses:
@@ -29,8 +31,6 @@ We do **not claim authorship** of the ProtoMAML code. It is included for referen
 Full CC BY-SA license: [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 `Unauthorized use of this code in violation of its license will be documented and made publicly visible. Attempts to remove attribution or bypass licensing terms will be treated as a violation of open-source ethics and may be disclosed to relevant communities, funders, and publishers.`
-
-## If you have any questions or need features please add them to `issues`. I would be happy to help.  
 
 This code is released as a part of the research article:
 ```bash
