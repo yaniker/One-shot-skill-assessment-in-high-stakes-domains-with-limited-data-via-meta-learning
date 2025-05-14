@@ -1,5 +1,5 @@
 
-**!!! If you have any questions or need features please add them to `issues`. I would be happy to help. !!!**
+**!!! If you have any questions or need features please add them to `issues`. !!!**
 
 ## License
 
