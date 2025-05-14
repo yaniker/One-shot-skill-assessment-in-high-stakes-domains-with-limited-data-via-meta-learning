@@ -53,7 +53,7 @@ def save_results(save_path, k, y_actual, y_pred, y_pred_sm, val_dataset, cl, see
     #Compute the trustworthiness of the model based on the results.
     NTS = CNTS(oracle = np.array(y_actual), predictions = np.array(y_pred_sm),
                show_summary = False, export_summary = False).compute()
-            
+
     if not dev:
         df         = pd.DataFrame({'Seed' : seed_value}, index = [0])
         save_name  = 'Seed.xlsx'
@@ -80,11 +80,15 @@ def save_results(save_path, k, y_actual, y_pred, y_pred_sm, val_dataset, cl, see
 
         elif val_dataset in ['JST', 'JNP', 'JKT']:
             df         = pd.DataFrame({'Accuracy' : ACC,
-                                       'NTS_00'   : NTS[3],
-                                       'NTS_01'   : NTS[4], 'NTS_02'   : NTS[5],
-                                       'NTS_11'   : NTS[6], 'NTS_10'   : NTS[7],
-                                       'NTS_12'   : NTS[8], 'NTS_22'   : NTS[9],
-                                       'NTS_20'   : NTS[10],'NTS_21'   : NTS[11],
+                                       'NTS_0'   : NTS['class_0'],
+                                       'NTS_0P'   : NTS['class_0_correct'], 
+                                       'NTS_0F'   : NTS['class_0_incorrect'],
+                                       'NTS_1'   : NTS['class_1'],
+                                       'NTS_1P'   : NTS['class_1_correct'], 
+                                       'NTS_1F'   : NTS['class_1_incorrect'],
+                                       'NTS_2'   : NTS['class_2'],
+                                       'NTS_2P'   : NTS['class_2_correct'], 
+                                       'NTS_2F'   : NTS['class_2_incorrect'],
                                       }, index = [0])
             save_name  = 'Results_for_k{}.xlsx'.format(k)
             _save_this_location (save_path, save_name, df)
