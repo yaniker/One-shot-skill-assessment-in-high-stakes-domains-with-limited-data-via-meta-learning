@@ -72,7 +72,7 @@ def class_name_adjuster(yb: list, new_labels: list) -> np.ndarray:
     yb_new = [new_labels[i] for i in yb]
     return np.array(yb_new)  
 
-def sample_adjuster(yb: np.ndarray, names: np.ndarray, X: np.ndarray, n: int = 16) ->Tuple[np.ndarray, np.ndarray, np.ndarray]:
+def sample_adjuster(yb: np.ndarray, names: np.ndarray, X: np.ndarray, n: int = 16) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
     """
     Uniformly samples a fixed number of instances from each class within the dataset.
         
