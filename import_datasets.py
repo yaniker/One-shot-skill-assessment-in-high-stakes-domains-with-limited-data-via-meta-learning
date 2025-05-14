@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import os, sys
 import torch
-from utils_inputs import *
+from utils import inp_properties, shuffle_data, reorder_data, sample_adjuster, class_name_adjuster, import_feats_SS_JIGSAWS, import_feats_SS
 
 """
     Classes in this file are used for importing, adjusting, and optionally shuffling the specified dataset features and labels.
