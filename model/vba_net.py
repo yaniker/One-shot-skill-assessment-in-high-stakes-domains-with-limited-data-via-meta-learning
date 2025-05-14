@@ -1,5 +1,5 @@
 """
-# VBA_net and associated model code
+# vba_net and associated model code
 # Copyright © 2025 Erim Yanik
 # Licensed under the GNU General Public License v3.0
 # You must retain this notice and attribute the original author (Erim Yanik).
