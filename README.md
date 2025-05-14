@@ -118,7 +118,7 @@ The JIGSAWS dataset was taken from:
 Website: https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/
 Reference: Yixin Gao, S. Swaroop Vedula, Carol E. Reiley, Narges Ahmidi, Balakrishnan Varadarajan, Henry C. Lin, Lingling Tao, Luca Zappella, Benjam ́ın B ́ejar, David D. Yuh, Chi Chiung Grace Chen, Ren ́e Vidal, Sanjeev Khudanpur and Gregory D. Hager, The JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling, In Modeling and Monitoring of Computer Assisted Interventions (M2CAI) – MICCAI Workshop, 2014.
 Cited and acknowledged in the paper: YES.
-YOU HAVE TO GET THEIR PERMISSION IN ORDER TO USE THE JIGSAWS DATASET.
+YOU HAVE TO GET THEIR PERMISSION IN ORDER TO USE THIS DATASET.
 ```
 
 
