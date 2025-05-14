@@ -1,1 +1,1 @@
-from .model import model
+from .vbanet import model
