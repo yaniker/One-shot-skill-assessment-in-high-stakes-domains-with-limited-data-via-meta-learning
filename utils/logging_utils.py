@@ -223,7 +223,7 @@ def _save_this_location (save_folder, save_name, df):
         print(f"An error occurred while trying to save the file")
 
 def _filter_valid_data(y_actual: list, y_pred: list,
-                       y_pred_sm: list) -> Tuple(list, list, list, list):
+                       y_pred_sm: list) -> Tuple[list, list, list, list]:
     """
     Filters out samples with 'na' in actual labels from given label lists, ensuring only valid data is processed.
 
