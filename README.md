@@ -22,8 +22,8 @@ The code in the `/protomaml/` directory is **adapted from external sources** and
 
 This means:
 - You must **attribute the original creators** of ProtoMAML.
-- 	Website: https://pytorch-lightning.readthedocs.io/en/1.5.10/notebooks/course_UvA-DL/12-meta-learning.html
- 	Author: Phillip Lippe
+-         Website: https://pytorch-lightning.readthedocs.io/en/1.5.10/notebooks/course_UvA-DL/12-meta-learning.html
+-         Author: Phillip Lippe
 - Any use or derivative of that code must be licensed under **CC BY-SA 4.0**.
 
 We do **not claim authorship** of the ProtoMAML code. It is included for reference and compatibility only.
