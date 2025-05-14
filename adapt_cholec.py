@@ -19,12 +19,13 @@ import pandas as pd
 import torch
 import pytorch_lightning as pl
 
-from ProtoMAML import *
-from utils_model import *
-from utils_logging import *
-from utils_inputs import *
+from protomaml import test_model
+
+from utils import (SequentialDataset, convert_to_torch_tensors,
+       to_tensor, zero_padder, X_normalize, save_results  
+)
+
 from import_datasets import *
-from generator_1D import *
 from config import *
 
 def main():    
