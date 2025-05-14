@@ -62,7 +62,7 @@ APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., Norfleet, J., Hackett, M.
 ### Contained files:
 
 * main.py: main script that contains the entire workflow of meta learning training and adaptation.
-* test_on_cholec.py: used to test the trained meta learners on laparoscopic cholecystectomy.
+* adapt_cholec.py: used to test the trained meta learners on laparoscopic cholecystectomy.
 * config.py" the configurations, i.e., parameters and hyperparameters for meta learning development.
 * import_datasets.py: imports the datasets.
 * model/vbanet.py: the backbone deep neural network - VBA-Net.
