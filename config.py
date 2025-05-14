@@ -1,6 +1,9 @@
 """
-Author: Dr. Erim Yanik
-Date: 04/05/2024
+# VBA_net and associated model code
+# Copyright © 2024 Erim Yanik
+# Licensed under the GNU General Public License v3.0
+# You must retain this notice and attribute the original author.
+# Full license: https://www.gnu.org/licenses/gpl-3.0.en.html
 """
 
 def config(val_dataset):
