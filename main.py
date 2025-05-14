@@ -31,7 +31,6 @@ from utils import (SequentialDataset, convert_to_torch_tensors,
 )
 
 from import_datasets import *
-from generator_1D import *
 from config import *
 
 def main():   
