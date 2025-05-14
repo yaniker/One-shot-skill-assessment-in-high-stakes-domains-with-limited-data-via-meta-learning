@@ -1,6 +1,7 @@
 """
-Author: Dr. Erim Yanik
-Date: 04/05/2024
+© 2025 Erim Yanik
+Licensed under CC BY-SA 4.0
+You must attribute the original author and share any derivatives under the same terms.
 """
 
 import torch
@@ -104,14 +105,14 @@ class ResBlock(nn.Module):
     
 class model(nn.Module):
     """
-    Defines VBANet, a neural network model.
+    Defines model, a neural network model.
 
     Parameters:
         inp_size (int): The size of the input features/channels.
     """
     
     def __init__(self, inp_size):
-        super(VBANet, self).__init__()
+        super(model, self).__init__()
         params = config_model()
         if inp_size in [2,4,8,10]: channel_size = 16; out_dim = 512
         elif inp_size in [16,32]: channel_size = 64; out_dim = 512
