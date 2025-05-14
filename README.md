@@ -1,10 +1,12 @@
 ## If you have any questions or need features please add them to `issues`. I would be happy to help.  
 
-  	Licence: CC BY-SA-4.0
+  	Licence: Protomaml is licensed under CC BY-SA-4.0.
 	Author: Dr. Erim Yanik
 	Affiliation: FAMU-FSU College of Engineering
 	Date: 04.05.2024
 	For inquiries: erimyanik@gmail.com
+
+Unauthorized use of this code in violation of its license will be documented and made publicly visible. Attempts to remove attribution or bypass licensing terms will be treated as a violation of open-source ethics and may be disclosed to relevant communities, funders, and publishers.
 
 #############################################
 
