@@ -26,10 +26,10 @@ from ProtoMAML import train_model, test_model
 
 from utils import (SequentialDataset, convert_to_torch_tensors,
        to_tensor, zero_padder, X_normalize,
-       save_hyperparameters_2, save_model_parameters
+       save_hyperparameters_2, save_model_parameters,
+       shuffle_data
 )
 
-from utils_inputs import *
 from import_datasets import *
 from generator_1D import *
 from config import *
