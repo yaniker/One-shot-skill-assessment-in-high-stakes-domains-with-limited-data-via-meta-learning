@@ -1,6 +1,9 @@
 """
-Author: Dr. Erim Yanik
-Date: 04/05/2024
+VBANet and associated model code
+Copyright © 2024 Erim Yanik
+Licensed under the GNU General Public License v3.0
+You must retain this notice and attribute the original author (Erim Yanik).
+Full license: https://www.gnu.org/licenses/gpl-3.0.en.html
 """
 
 from .dataset_utils import inp_properties, shuffle_data, reorder_data, sample_adjuster, class_name_adjuster, import_feats_SS_JIGSAWS, import_feats_SS
