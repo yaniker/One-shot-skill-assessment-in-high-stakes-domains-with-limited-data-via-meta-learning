@@ -1,6 +1,10 @@
 
 **!!! If you have any questions or need features please add them to `issues`. !!!**
 
+## Definition
+
+This code introduces meta learning adaptation to time-series datasets with varying temporal length.
+
 ## License
 
 This repository contains two distinct codebases under separate licenses:
