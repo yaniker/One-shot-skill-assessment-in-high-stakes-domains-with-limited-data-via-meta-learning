@@ -22,7 +22,7 @@ import pandas as pd
 import torch
 import pytorch_lightning as pl
 
-from ProtoMAML import train_model, test_model
+from protomaml import train_model, test_model
 
 from utils import (SequentialDataset, convert_to_torch_tensors,
        to_tensor, zero_padder, X_normalize, shuffle_data,
