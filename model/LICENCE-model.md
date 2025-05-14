@@ -1,4 +1,4 @@
-VBA_net and associated model code  
+VBANet and associated model code  
 Copyright © 2025 Erim Yanik
 
 This program is free software: you can redistribute it and/or modify  
