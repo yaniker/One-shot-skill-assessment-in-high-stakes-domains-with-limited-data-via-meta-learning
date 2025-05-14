@@ -18,8 +18,6 @@ class SequentialDataset(Dataset):
         """
         
         super().__init__()
-        self.X_transform = X_transform
-        self.y_transform = y_transform
         self.Xs = Xs
         self.targets = targets
         
