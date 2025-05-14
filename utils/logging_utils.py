@@ -1,8 +1,9 @@
-import os
+import os, sys
 import numpy as np
 import pandas as pd
 from typing import Tuple
 from sklearn.metrics import confusion_matrix, roc_auc_score, precision_recall_curve
+from trustpy import CNTS
 
 def save_results(save_path, k, y_actual, y_pred, y_pred_sm, val_dataset, cl, seed_value, dev):
     """
@@ -42,21 +43,22 @@ def save_results(save_path, k, y_actual, y_pred, y_pred_sm, val_dataset, cl, see
         print('ROC AUC     = {:.3f}'.format(ROC_AUC))
     
     #Compute the trustworthiness of the model based on the results.
-    if val_dataset not in ['JST', 'JNP', 'JKT']:
-        NTS = _binary_trustworthiness(y_actual, y_pred_sm, cl = cl).main()
-
-    else: NTS = _multi_trustworthiness(y_actual, y_pred_sm, cl = cl).main()
-        
+    NTS = CNTS(oracle = np.array(y_actual), predictions = np.array(y_pred_sm),
+               show_summary = False, export_summary = False).compute()
+            
     if not dev:
         df         = pd.DataFrame({'Seed' : seed_value}, index = [0])
         save_name  = 'Seed.xlsx'
         _save_this_location (save_path, save_name, df)
 
         if val_dataset not in ['JST', 'JNP', 'JKT']:
-            df         = pd.DataFrame({'ROC_AUC'      : ROC_AUC, 'Accuracy'     : ACC,
-                                       'NTS_0'        : NTS[0],  'NTS_1'        : NTS[3],
-                                       'NTS_TN'       : NTS[1],  'NTS_FP'       : NTS[2],
-                                       'NTS_TP'       : NTS[4],  'NTS_FN'       : NTS[5]
+            df         = pd.DataFrame({'ROC_AUC' : ROC_AUC, 'Accuracy'  : ACC,
+                                       'NTS_0'   : NTS['class_0'], 
+                                       'NTS_1'   : NTS['class_1'],
+                                       'NTS_TN'  : NTS['class_0_correct'],
+                                       'NTS_FP'  : NTS['class_0_incorrect'],
+                                       'NTS_TP'  : NTS['class_0_correct'],  
+                                       'NTS_FN'  : NTS['class_1_incorrect']
                                       }, index = [0])
             save_name  = 'Results_for_k{}.xlsx'.format(k)
             _save_this_location (save_path, save_name, df)
@@ -70,8 +72,7 @@ def save_results(save_path, k, y_actual, y_pred, y_pred_sm, val_dataset, cl, see
 
         elif val_dataset in ['JST', 'JNP', 'JKT']:
             df         = pd.DataFrame({'Accuracy' : ACC,
-                                       'NTS_0'    : NTS[0], 'NTS_1'    : NTS[1],
-                                       'NTS_2'    : NTS[2], 'NTS_00'   : NTS[3],
+                                       'NTS_00'   : NTS[3],
                                        'NTS_01'   : NTS[4], 'NTS_02'   : NTS[5],
                                        'NTS_11'   : NTS[6], 'NTS_10'   : NTS[7],
                                        'NTS_12'   : NTS[8], 'NTS_22'   : NTS[9],
