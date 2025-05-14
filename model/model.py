@@ -102,7 +102,7 @@ class ResBlock(nn.Module):
         xc = self.attention2(xc)
         return xc
     
-class VBANet(nn.Module):
+class model(nn.Module):
     """
     Defines VBANet, a neural network model.
 
