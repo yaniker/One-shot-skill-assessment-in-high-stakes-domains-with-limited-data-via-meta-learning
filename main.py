@@ -25,9 +25,8 @@ import pytorch_lightning as pl
 from ProtoMAML import train_model, test_model
 
 from utils import (SequentialDataset, convert_to_torch_tensors,
-       to_tensor, zero_padder, X_normalize,
-       save_hyperparameters_2, save_model_parameters,
-       shuffle_data
+       to_tensor, zero_padder, X_normalize, shuffle_data,
+       save_results, save_hyperparameters_2, save_model_parameters  
 )
 
 from import_datasets import *
