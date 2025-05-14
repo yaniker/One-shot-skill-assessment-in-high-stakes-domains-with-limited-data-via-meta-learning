@@ -5,7 +5,7 @@
 
 This repository contains two distinct codebases under separate licenses:
 
-### 🔹 Model Code (VBA_net and Related)
+### 🔹 Model Code (VBANet and Related)
 
 The code in the `/model/` directory (including `vbanet.py` and related modules) was developed by **Erim Yanik** and is licensed under the **GNU General Public License v3.0 (GPLv3)**.
 
