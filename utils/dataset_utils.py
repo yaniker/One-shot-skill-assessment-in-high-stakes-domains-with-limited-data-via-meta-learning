@@ -136,7 +136,7 @@ def shuffle_data(*args):
     permutation = np.random.permutation(len(args[0]))
     return tuple(arr[permutation] for arr in args)
     
-def reorder_data(rows: list, *args): -> tuple
+def reorder_data(rows: list, *args) -> tuple:
     """
     Reorders elements in given arrays based on specified row indices, followed by those not included.
 
