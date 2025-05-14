@@ -1,4 +1,4 @@
-!!!!!!!!!!! THIS REPOSITORY IS A WORK IN PROGRESS AT THE MOMENT. !!!!!!!!!!!
+## If you have any questions or need features please add them to `issues`. I would be happy to help.  
 
   	Licence: CC BY-SA-4.0
 	Author: Dr. Erim Yanik
