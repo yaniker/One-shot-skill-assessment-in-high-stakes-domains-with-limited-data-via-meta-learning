@@ -10,7 +10,7 @@
 There is no model training in this script. It takes the best performing models from the training and validation by the other datasets and uses these models to adapt to Laparoscopic Cholecystectomy for given gradient update and adaptation shots, i.e., k-shots.
 """
 
-import os, sys
+import os
 import argparse
 import warnings
 

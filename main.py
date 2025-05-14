@@ -16,7 +16,7 @@ Nomenclature:
     Cholec : laparoscopic chlecystectomy
 """
 
-import os, sys
+import os
 import argparse
 import warnings
 
