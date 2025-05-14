@@ -44,8 +44,9 @@ BibTeX:@article{yanik2024one,
 	  year={2024},
 	  publisher={Elsevier}
 	}
-
-	APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., Norfleet, J., Hackett, M., & De, S. (2024). One-shot skill assessment in high-stakes domains with limited data via meta learning. Computers in Biology and Medicine, 108470.
+```
+```bash
+APA: Yanik, E., Schwaitzberg, S., Yang, G., Intes, X., Norfleet, J., Hackett, M., & De, S. (2024). One-shot skill assessment in high-stakes domains with limited data via meta learning. Computers in Biology and Medicine, 108470.
 ```
 
 ## HOW TO USE?
