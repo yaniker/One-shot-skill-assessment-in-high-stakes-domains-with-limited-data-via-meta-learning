@@ -1,7 +1,12 @@
 """
-Author: Dr. Erim Yanik
-Date: 04/05/2024
+# VBA_net and associated model code
+# Copyright © 2024 Erim Yanik
+# Licensed under the GNU General Public License v3.0
+# You must retain this notice and attribute the original author.
+# Full license: https://www.gnu.org/licenses/gpl-3.0.en.html
+"""
 
+"""
 There is no model training in this script. It takes the best performing models from the training and validation by the other datasets of this study and uses these models to adapt to Laparoscopic Cholecystectomy for given gradient update and adaptation shots, i.e., k-shots.
 """
 
