@@ -1,5 +1,8 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/yaniker/one-shot-skill-assessment-in-high-stakes-domains-with-limited-data-via-meta-learning)
+![GitHub Views](https://img.shields.io/badge/GitHub%20Views%20(14d)-130-yellow)
+![GitHub Clones](https://img.shields.io/badge/GitHub%20Clones%20(14d)-40-blue)
+
 
 **!!! If you need features please add them to `issues`. !!!**
 
