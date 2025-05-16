@@ -1,7 +1,7 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/yaniker/one-shot-skill-assessment-in-high-stakes-domains-with-limited-data-via-meta-learning)
 
-**!!! If you have any questions or need features please add them to `issues`. !!!**
+**!!! If you need features please add them to `issues`. !!!**
 
 ## Definition
 
